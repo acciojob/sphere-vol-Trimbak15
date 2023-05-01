@@ -8,5 +8,5 @@ function volume_sphere() {
 
             // display the volume in the volume field
             const volumeField = document.getElementById("volume");
-            volumeField.value = volume.toFixed(2); // round to 2 decimal places
+            volumeField.value = volume.toFixed(4); // round to 2 decimal places
         }
